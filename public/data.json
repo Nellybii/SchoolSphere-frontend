@@ -1,0 +1,88 @@
+{
+    "schools": [
+      {
+        "id": 1,
+        "name": "Greenwood High School",
+        "address": "123 Main Street, Nairobi",
+        "contact_info": "0722001122",
+        "classes": [
+          {
+            "id": 1,
+            "name": "Class 8A",
+            "subjects": [
+              {
+                "id": 1,
+                "name": "Mathematics",
+                "teacher": {
+                  "id": 1,
+                  "name": "Mr. John Doe",
+                  "email": "johndoe@greenwood.com",
+                  "contact": "0711223344"
+                }
+              },
+              {
+                "id": 2,
+                "name": "English",
+                "teacher": {
+                  "id": 2,
+                  "name": "Mrs. Jane Smith",
+                  "email": "janesmith@greenwood.com",
+                  "contact": "0722334455"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Class 8B",
+            "subjects": []
+          }
+        ]
+      }
+    ],
+    "students": [
+      {
+        "id": 1,
+        "name": "Alice Njeri",
+        "email": "alicenjeri@gmail.com",
+        "school_id": 1,
+        "class_id": 1,
+        "results": [
+          {
+            "subject_id": 1,
+            "score": 85
+          },
+          {
+            "subject_id": 2,
+            "score": 90
+          }
+        ],
+        "account": {
+          "balance_due": 5000,
+          "last_payment_date": "2024-11-15",
+          "payment_methods": ["M-Pesa", "Visa"]
+        }
+      }
+    ],
+    "teachers": [
+      {
+        "id": 1,
+        "name": "Mr. John Doe",
+        "email": "johndoe@greenwood.com",
+        "contact": "0711223344",
+        "school_id": 1,
+        "subjects": [1],
+        "classes": [1]
+      },
+      {
+        "id": 2,
+        "name": "Mrs. Jane Smith",
+        "email": "janesmith@greenwood.com",
+        "contact": "0722334455",
+        "school_id": 1,
+        "subjects": [2],
+        "classes": [1]
+      }
+    ]
+  }
+  
